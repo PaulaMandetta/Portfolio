@@ -1,8 +1,7 @@
-<div class="container-fluid mt-5 pt-5" id="contato">
+<div class="container-fluid mt-5 pb-5 bg-principal" id="contato">
     <div class="container text-center">
-        <h1>Contato</h1>
-        <p><span class="texto-principal">----------------</span></p>
-        <div class="row g-4 justify-content-center">
+        <h2 class="display-6 pt-5 fw-bold mb-0 texto-titulo">Contato</h2>
+        <div class="row g-4 pt-3 justify-content-center">
             <div class="col-12 col-md-4">
                 <a href="mailto:paaulaperigo@gmail.com" class="btn btn-custom-outline w-100">
                     <i class="fa-solid fa-envelope texto-principal"></i> paaulaperigo@gmail.com

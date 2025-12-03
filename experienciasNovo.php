@@ -1,7 +1,6 @@
 <div class="container-fluid mt-5 pt-5" id="experiencias">
     <div class="container text-center">
-        <h1>Experiências Profissionais</h1>
-        <p><span class="texto-principal">----------------</span></p>
+        <h2 class="display-6 fw-bold mb-0 texto-titulo">Experiências Profissionais</h2>
         <div class="row g-4 justify-content-center">
             <?php
                 include ("conexao.php"); 

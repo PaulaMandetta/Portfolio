@@ -12,28 +12,77 @@
     
     <title>Portfólio Paulinha</title>
 
-    <style>
-        :root {
-            --cor-principal: #B197FC;
-        }
+<style>
+    /* VARIÁVEIS DE COR */
+    :root {
+        --cor-principal: #B197FC;
+        --cor-secundaria: #faf7ff;
+        --cor-titulo: #33195e;
+    }
 
-        .texto-principal {
-            color: var(--cor-principal);
-        }
+    /* CORES DE TEXTO */
+    .texto-principal { color: var(--cor-principal); }
+    .texto-titulo { color: var(--cor-titulo); }
 
-        .btn-custom-outline {
-            border-color: var(--cor-principal);
-            color: var(--cor-principal);
-            transition: all 0.3s ease; 
-        }
+    /* BOTÃO CUSTOMIZADO */
+    .btn-custom-outline {
+        border-color: var(--cor-principal);
+        color: var(--cor-principal);
+        transition: all 0.3s ease; 
+    }
+    .btn-custom-outline:hover {
+        background-color: var(--cor-principal);
+        color: white;
+    }
+    .btn-custom-outline:hover i {
+        color: white !important;
+    }
 
-        .btn-custom-outline:hover {
-            background-color: var(--cor-principal);
-            color: white;
-        }
+    /* FUNDO PRINCIPAL */
+    .bg-principal {
+        background-color: var(--cor-secundaria) !important;
+    }
+    
+    /* NAV BAR */
+    .navbar-nav .nav-link {
+        color: var(--cor-principal) !important;
+        transition: color 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+        color: var(--cor-titulo) !important;
+    }
 
-        .btn-custom-outline:hover i {
-            color: white !important;
-        }
-    </style>
+
+
+    /* Botões redondos (Links) */
+    .btn-bolinha {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+        background-color: #f8f9fa;
+        border: 1px solid #eee;
+    }
+    .btn-bolinha:hover {
+        background-color: var(--cor-principal);
+        color: white !important;
+        border-color: var(--cor-principal);
+    }
+    .btn-bolinha:hover i {
+        color: white !important;
+    }
+    
+    /* ANIMAÇÃO 'CARREGAR MAIS' */
+    .fade-in {
+        animation: fadeIn 0.6s ease-out forwards;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+</style>
 </head>

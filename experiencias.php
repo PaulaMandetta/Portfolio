@@ -1,8 +1,7 @@
 <div class="container-fluid mt-5 pt-5" id="experiencias">
-    <div class="container">
-        <h1>Experiências Profissionais</h1>
-        <p><span class="texto-principal">----------------</span></p>
-        <div class="row mb-5">
+    <div class="container py-5">
+        <h2 class="display-6 fw-bold mb-0 texto-titulo">Experiências Profissionais</h2>
+        <div class="row mt-3 mb-5">
             <div class="col-md-2 text-center">
                 <div class="p-3 bg-light rounded shadow-sm">
                     <strong class="text-muted">2022 - Atual</strong>
